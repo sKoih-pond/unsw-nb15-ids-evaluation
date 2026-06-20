@@ -1,0 +1,16 @@
+# UNSW-NB15 dataset — large + separately licensed, download yourself (see README)
+UNSW_NB15_training-set.csv
+UNSW_NB15_testing-set.csv
+*.csv
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
