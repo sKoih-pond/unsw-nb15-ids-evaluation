@@ -83,8 +83,14 @@ committed** (they're large, and the dataset is the authors' to distribute, not m
 - `UNSW_NB15_training-set.csv`
 - `UNSW_NB15_testing-set.csv`
 
-Get them from the official **UNSW-NB15** dataset (UNSW Canberra Cyber) or its Kaggle mirror,
-then place both CSVs next to the notebook (or update the two path variables in §2).
+Get them from the official source or a mirror, then place both CSVs next to the notebook
+(or update the two path variables in §2):
+
+- **Official (UNSW Canberra Cyber):** https://research.unsw.edu.au/projects/unsw-nb15-dataset
+- **Kaggle mirror:** https://www.kaggle.com/datasets/mrwellsdavid/unsw-nb15
+
+The notebook uses the pre-built partition files (`UNSW_NB15_training-set.csv` /
+`UNSW_NB15_testing-set.csv`), which live under the partitioned/CSV folder of the dataset.
 
 ## Reproduce
 
